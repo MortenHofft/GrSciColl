@@ -1,0 +1,34 @@
+---
+layout: base
+---
+<style>
+  .gbif-occurrenceSearchLayout, .__reakit-portal {
+    line-height: 1em;
+  }
+  .arrow > svg {
+    vertical-align: inherit;
+  }
+  body > main {
+    padding-bottom: 0;
+    background: #f1f5f8;
+  }
+  body > footer {
+    display: none;
+  }
+  label {
+    margin-bottom: 0;
+  }
+  h4 {
+    font-size: 14px;
+  }
+</style>
+
+<!-- useful variables -->
+<script>
+var pageLang = '{{ page.lang }}';
+var rootLang = '{{ site.algae.rootLang }}';
+var basename = pageLang === rootLang ? undefined : pageLang;
+</script>
+{{ content }}
+
+<script src="/scripts/bundle.js"></script>

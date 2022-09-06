@@ -1,18 +1,23 @@
 ---
 lang-ref: home
 layout: home
-title: Template headline
-description: Lesser saw seas own have can’t kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they’re grass called open.
-background: https://api.gbif.org/v1/image/unsafe/https%3A%2F%2Fstatic.inaturalist.org%2Fphotos%2F58912610%2Foriginal.jpeg%3F1577953995
+klass: home
+title: Natural History Collections
+description: |
+  An ever growing catalogue of the worlds natural history collections and their digitized specimens
+
+  <form action="/collection" method="GET">
+    <input name="q" class="input" type="text" placeholder="Name, catalog no, code, …" style="width: 250px">
+    <button type="submit" class="button is-primary">Search specimens</button>
+  </form>
+
+  {: .gettingStarted}
+  Not sure how to get started? <a href="/about">Watch our Getting started video</a>
+background: https://mediaphoto.mnhn.fr/media/1584709959823WCA9NX1UTkzHBZMp
 imageLicense: |
-  *Xylaria hypoxylon* (L.) Grev. Photo by Alexis via [iNaturalist](https://www.gbif.org/occurrence/2542961803)
-cta:
-  - text: Start exploring
-    href: /occurrence/search
-    isPrimary: true
-  - text: About
-    href: /about
+  *Calcinus tubularis* (Linnaeus, 1767). [The crustaceans collection (IU) of the Muséum national d'Histoire naturelle (MNHN - Paris)](l/collection/0641bf3b-29ad-42c9-b3c7-ffb5a76f6954) Photo 2019. Licensed under [CC-BY 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 permalink: /
+overlay: "#00000022"
 ---
 
 Edit `/home.md` to change the text.
